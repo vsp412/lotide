@@ -8,7 +8,12 @@ const assertEqual = function(actual, expected) {
 };
 
 function head(p) {
-  return p[0];
+  if(p === []) {
+    return undefined;
+  }
+  else {
+    return p[0];
+  }
 }
 // TEST CODE
 assertEqual(head([5,6,7]), 5);
