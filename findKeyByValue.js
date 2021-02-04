@@ -28,11 +28,3 @@ const bestTVShowsByGenre = {
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 
-// const result1 = countLetters(s); 
-
-
-
-// console.log(result1);
-
-// assertEqual(result1["c"], 1);
-// assertEqual(result1["t"], 3);
