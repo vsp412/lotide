@@ -55,3 +55,5 @@ assertEqual(result1["Agouhanna"], undefined);
 // // TEST CODE
 // assertEqual("Lighthouse Labs", "Bootcamp");
 // assertEqual(1, 1);
+
+module.exports = countOnly;

@@ -63,4 +63,6 @@ assertArraysEqual(results1, [1, 2, 5, 7, 2]);
 assertArraysEqual(results2, ["I've", "been", "to", "Hollywood"]);
 assertArraysEqual(results3, []);
 
+module.exports = takeUntil;
+
 

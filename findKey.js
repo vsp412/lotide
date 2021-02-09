@@ -48,3 +48,4 @@ assertEqual(findKey(data3, x => x.stars === 2), "not found");
 
 
 
+module.exports = findKey;

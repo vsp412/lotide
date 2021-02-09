@@ -30,3 +30,5 @@ console.log(result1);
 
 assertEqual(result1["c"], 1);
 assertEqual(result1["t"], 3);
+
+module.exports = countLetters;

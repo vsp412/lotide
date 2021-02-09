@@ -46,3 +46,5 @@ const flatten  = function(ems) {
 const main= [1, 2, [3, [7,3,[0,4,3,5,6],2], 4], 5, [6]];
 console.log(flatten(main)); 
 assertArraysEqual(main, [1, 2, [3, [7,3,[0,4,3,5,6],2], 4], 5, [6]]);
+
+module.exports = flatten;

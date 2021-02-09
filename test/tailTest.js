@@ -30,6 +30,7 @@ describe ("#checkTail", () => {
   it ("return [2,3] if passed [1,2,3]", () => {
     e.isTrue(eqArrays(tail([1,2,3]), [2,3]));
   });
+  
 });
 
 
