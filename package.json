@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@vineetp/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library containing some custom implementations of some functions from the Lodash library. Created as part of my learning at Lighthouse Labs.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/vsp412/lotide.git"
   },
-  "author": "",
+  "author": "Vineet S. Pande",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vsp412/lotide/issues"
